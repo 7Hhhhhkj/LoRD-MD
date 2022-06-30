@@ -348,7 +348,7 @@ hisoka.sendMessage(id, buttonMessage, MessageType.buttonsMessage, options)
     reply = async (text, chatId, options) => {
     	let ppuser = await hisoka.profilePictureUrl(m.sender).catch(_ => 'https://telegra.ph/file/e2cdf013cdb06384c0947.jpg')
         let { data } = await hisoka.getFile(ppuser)
-        hisoka.reply(chatId ? chatId : m.chat, text, m, { contextInfo: { mentionedJid: m.quoted, externalAdReply: { title: 'ʟᴏʀᴅ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ', body: '© LoRD', sourceUrl: 'https://wa.me/919778383987', thumbnail: data }}, options })
+        hisoka.reply(chatId ? chatId : m.chat, text, m, { contextInfo: { mentionedJid: m.quoted, externalAdReply: { title: 'ᴀꜱɪᴀᴛᴀ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ', body: '© ᴀꜱɪᴀᴛᴀ', sourceUrl: 'https://wa.me/94766816809', thumbnail: data }}, options })
     }
     /**
      * 
